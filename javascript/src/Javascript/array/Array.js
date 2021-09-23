@@ -1,7 +1,8 @@
 import React from 'react'
-
 export default function Array() {
-
+    const style={
+        color:'red'
+    }
     //array methods
     //1:array.find():
     // The find() method searches through an array and gives you 1 item based on your provided test. 
@@ -331,20 +332,21 @@ export default function Array() {
     //45 Add items to cart
     const cart = [
         {
-          item: "bread",
-          price: 2000,
+            item: "bread",
+            price: 2000,
         },
         {
-          item:"milk",
-          price: 1000
+            item: "milk",
+            price: 1000
         }
-      ]
-      cart.unshift({item: "eggs", price: 500})
-      console.log(cart);
+    ]
+    cart.unshift({ item: "eggs", price: 500 })
+    console.log(cart);
 
     return (
         <div>
-
+            <h3>Array operation</h3>
+            <p style={style}>**please check console for result**</p>
         </div>
     )
 }

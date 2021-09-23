@@ -1,12 +1,14 @@
 
 import './App.css';
-import Array from'./Javascript/array/Array';
+import Array from './Javascript/array/Array';
+import String from './Javascript/string/String';
 
 function App() {
   return (
     <div className="App">
-      <h1>hello</h1>
-      <Array/>
+      <h1 >javascript operations</h1>
+      <Array />
+      <String />
     </div>
   );
 }
